@@ -738,6 +738,7 @@ const RegolaImponibile = {
     STANDARD: 1,
     NORD: 0.3,
     MEZZOGIORNO: 0.1,
+    MELONI2024: 0.5
 }
 
 const regioneToRegola = {
@@ -746,7 +747,7 @@ const regioneToRegola = {
     CALABRIA: RegolaImponibile.MEZZOGIORNO,
     CAMPANIA: RegolaImponibile.MEZZOGIORNO,
     EMILIA_ROMAGNA: RegolaImponibile.NORD,
-    FRIULI_VENEZIA_GIULIA: RegolaImponibile.NORD,
+    FRIULI_VENEZIA_GIULIA: RegolaImponibile.MELONI2024,
     LAZIO: RegolaImponibile.NORD,
     LIGURIA: RegolaImponibile.NORD,
     LOMBARDIA: RegolaImponibile.NORD,
